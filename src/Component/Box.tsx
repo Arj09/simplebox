@@ -7,7 +7,7 @@ function Box() {
   let mintunes : number = new Date().getMinutes()
 
   return (
-    <div style={{width:"80vw", height:"100vh", margin:"auto"}}>
+    <div style={{ height:"100vh", margin:"auto"}}>
       <div style={{width:"20%", height:"10%", backgroundColor:"green",color:"white", borderRadius:"8px", padding:"20px", marginLeft:"50px", marginTop:"50px"}}>
         <div style={{display:'flex', flexDirection:'row', margin:"10px auto", justifyContent:"space-between"}}>
           <text>Production</text>
