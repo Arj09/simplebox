@@ -87,9 +87,9 @@ export const Form = ()=>{
                 
             </div>
 
-            <div >
-                    <text className="mr-5 px-10">Shift : </text>
-                    <select className="px-2 ml-24 rounded-sm">
+            <div className="" >
+                    <text className=" px-10">Shift : </text>
+                    <select className="px-2 ml-20 rounded-sm">
                         <option>A</option>
                     </select>
 
