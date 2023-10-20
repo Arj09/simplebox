@@ -3,17 +3,21 @@ import React from "react";
 export const Form = ()=>{
     return(
         <>
-        <div className=" w-4/5 mx-auto  my-0  px-10 py-10 flex flex-col gap-3  bg-sky-50 h-screen"  style={{border:"0.2px solid black"}}> 
+        <div className=" w-4/5 mx-auto  my-0    flex flex-col gap-3  bg-sky-50 h-screen"  style={{border:"0.2px solid black"}}>
+            <div className="mb-8 px-5 py-2  bg-sky-200">
+                <text >User ID Creation</text>
+            
+            </div> 
 
 
-            <div className="w-2/4" >
+            <div className="w-2/4 px-10" >
                 <text className="mr-4">User ID : </text>
                 <input className="rounded-sm  ml-20  w-1/5"    style={{border:"0.2px solid black " }} />
 
             </div>
 
 
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 px-10">
                 <div >
                     <text className="mr-2">First Name : </text>
                     <input className="rounded-sm  ml-16"    style={{border:"0.2px solid black " }} />
@@ -25,7 +29,7 @@ export const Form = ()=>{
 
                 </div>
             </div>
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 px-10">
                 <div >
                     <text className="mr-1">Employee ID : </text>
                     <input className="rounded-sm  ml-14"    style={{border:"0.2px solid black " }} />
@@ -38,7 +42,7 @@ export const Form = ()=>{
                 </div>
             </div>
 
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 px-10">
                 <div >
                     <text className="mr-2.5">Phone No. : </text>
                     <input className="rounded-sm  ml-16"    style={{border:"0.2px solid black " }} />
@@ -55,7 +59,7 @@ export const Form = ()=>{
             </div>
 
 
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-row gap-10 px-10">
                 <div >
                     <text className="mr-9">Role : </text>
                     <select className="px-20 ml-20 rounded-sm">
@@ -84,7 +88,7 @@ export const Form = ()=>{
             </div>
 
             <div >
-                    <text className="mr-5">Shift : </text>
+                    <text className="mr-5 px-10">Shift : </text>
                     <select className="px-2 ml-24 rounded-sm">
                         <option>A</option>
                     </select>
@@ -93,7 +97,7 @@ export const Form = ()=>{
 
 
 
-            <div className=" flex flex-row gap-10 mt-96">
+            <div className=" flex flex-row gap-10 mt-80 px-10">
             <button className="bg-sky-200 px-10 py-2">Save</button>
             <button className="bg-sky-200 px-10 py-2">Cancel</button>
             </div>
