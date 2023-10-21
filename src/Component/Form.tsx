@@ -87,7 +87,7 @@ export const Form = ()=>{
                 
             </div>
 
-            <div className="" >
+            <div className=" mb-10" >
                     <text className=" px-10">Shift : </text>
                     <select className="px-2 ml-20 rounded-sm">
                         <option>A</option>
@@ -98,8 +98,8 @@ export const Form = ()=>{
 
 
             <div className=" flex flex-row gap-10 mt-80 px-10">
-            <button className="bg-sky-200 px-10 py-2">Save</button>
-            <button className="bg-sky-200 px-10 py-2">Cancel</button>
+            <button className="bg-cyan-600 px-10 py-1  text-white">Save</button>
+            <button className="bg-cyan-600 px-10 py-1 text-white">Cancel</button>
             </div>
             
 
