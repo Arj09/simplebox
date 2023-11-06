@@ -2,6 +2,7 @@ import React from "react";
 
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import { Form } from "./Component/Form";
+import { Define } from "./Component/Define";
 
 
 export default function App(){
@@ -9,7 +10,7 @@ export default function App(){
     <>
     <BrowserRouter>
     <Routes>
-      <Route index element={<Form/>} />
+      <Route index element={<Define/>} />
 
     </Routes>
     </BrowserRouter>
